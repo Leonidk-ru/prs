@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "node test.js",
+    "parser": "node parser.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  },
+  "description": "- [Node.js](https://nodejs.org/en/download/)\r - [Yarn](https://yarnpkg.com/en/docs/install)",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2",
+    "eyes": "^0.1.8",
+    "fast-xml-parser": "^4.0.12",
+    "fs-extra": "^11.1.0",
+    "node-gyp": "^9.3.0",
+    "node-xml-stream": "^1.0.2",
+    "slash": "^5.0.0",
+    "xml2js": "^0.4.23"
+  }
+}
